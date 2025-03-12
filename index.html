@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hang lejátszó</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <button id="playButton">Press</button>
+    <audio id="audio" src="hang.mp3"></audio>
+
+    <script>
+        document.getElementById("playButton").addEventListener("click", function() {
+            document.getElementById("audio").play();
+        });
+    </script>
+</body>
+</html>
